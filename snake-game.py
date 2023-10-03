@@ -39,7 +39,7 @@ def our_snake(snake_block: int, snake_list: list) -> None:
 def message(msg: str, color: tuple) -> None:
     """Displays a message on the screen."""
     mesg = FONT_STYLE.render(msg, True, color)
-    DIS.blit(mesg, (DIS_WIDTH / 6, DIS_HEIGHT / 3))
+    DIS.blit(mesg, (DIS_WIDTH / 6, DIS_HEIGHT / 3)) 
 
 def game_loop() -> None:
     """Main game loop."""
